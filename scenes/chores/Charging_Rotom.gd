@@ -15,7 +15,7 @@ func _ready():
 
 
 func _on_Area2D_input_event(viewport, event, shape_idx):
-	if event is InputEventMouseButton:
+	if event is InputEventMouseButton and event.pressed:
 		frameNumber = frameNumber + 1
 		if frameNumber > 7:
 			frameNumber = 0

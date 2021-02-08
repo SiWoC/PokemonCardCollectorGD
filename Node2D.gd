@@ -1,14 +1,15 @@
 extends Node2D
 
+var cardFactory = CardFactory.new()
 
 func _ready():
 	print("getting ready")
-
+	$TextureRect.texture = cardFactory.get_back_texture(Corners.ROUNDED)
 	# Perform the HTTP request. The URL below returns a PNG image as of writing.
-	var http_error = $HTTPRequest.request("https://images.pokemontcg.io/ecard3/151_hires.png")
-	if http_error != OK:
-		print("An error occurred in the HTTP request.")
-	print("ready")
+#	var http_error = $HTTPRequest.request("https://images.pokemontcg.io/ecard3/151_hires.png")
+#	if http_error != OK:
+#		print("An error occurred in the HTTP request.")
+#	print("ready")
 
 
 

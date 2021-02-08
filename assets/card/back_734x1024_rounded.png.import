@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/back_734x1024_rounded.png-b26d70a6436475d7be3b5caff06ccd32.image"
+
+[deps]
+
+source_file="res://assets/card/back_734x1024_rounded.png"
+dest_files=[ "res://.import/back_734x1024_rounded.png-b26d70a6436475d7be3b5caff06ccd32.image" ]
+
+[params]
+
